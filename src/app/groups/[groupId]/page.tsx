@@ -79,6 +79,8 @@ export default async function GroupDetailPage({
     !isBeforeToday(group.deadline) &&
     group.participants.length < group.maxParticipants;
 
+  console.log('group detail page');
+
   return (
     <>
       <main className="w-4/5 mx-auto flex flex-col gap-10 my-15">
